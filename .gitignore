@@ -13,6 +13,10 @@ node_modules/
 **/dist-ssr/
 dist/
 
+# Scratch and temporary directories
+**/scratch/
+scratch/
+
 # Logs & temp files
 *.log
 npm-debug.log*
