@@ -3,6 +3,11 @@
 > **Intelligent Blood Supply Chain, Predictive Inventory & Logistics Network**  
 > Developed with ❤️ by **Team Zenith**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-blood--chain--ai-brightgreen?style=for-the-badge&logo=vercel)](https://blood-chain-ai-syjt.vercel.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+🔗 **Live Deployment**: **[https://blood-chain-ai-syjt.vercel.app](https://blood-chain-ai-syjt.vercel.app)**
+
 BloodChain AI is a unified healthcare intelligence platform that bridges hospitals, regional blood banks, and community donors into a synchronized, transparent, and resilient network. Powered by real-time inventory synchronization, strict clinical ABO/Rh compatibility rules, an explainable 100-point multi-factor source recommendation engine, OSRM road routing, and statistical demand forecasting.
 
 ---
@@ -120,6 +125,10 @@ Blood_chain/
 ---
 
 ## 🏁 Getting Started
+
+### 🌐 Live Production Deployment
+Experience the platform live on Vercel:  
+👉 **[https://blood-chain-ai-syjt.vercel.app](https://blood-chain-ai-syjt.vercel.app)**
 
 ### Prerequisites
 - Node.js (v18 or higher)
