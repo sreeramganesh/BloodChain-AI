@@ -1,0 +1,1258 @@
+/* =========================================================
+   BLOODCHAIN AI
+   ABOUT PAGE
+   ========================================================= */
+
+
+/* =========================================================
+   PAGE RESET
+   ========================================================= */
+
+.bc-about,
+.bc-about * {
+  box-sizing: border-box;
+}
+
+.bc-about {
+  width: 100%;
+  min-width: 0;
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  background: #ffffff;
+
+  color: #111b31;
+
+  font-family:
+    "Poppins",
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+  overflow-x: hidden;
+
+  position: relative;
+
+  left: auto;
+  right: auto;
+  top: auto;
+  bottom: auto;
+
+  transform: none;
+
+  float: none;
+
+  flex: none;
+
+  align-self: stretch;
+
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.bc-header {
+  width: 100%;
+  height: 72px;
+
+  margin: 0;
+  padding: 0 5.5%;
+
+  display: flex;
+  align-items: center;
+
+  background: #ffffff;
+
+  border-bottom: 1px solid #eeeeee;
+
+  position: relative;
+
+  z-index: 20;
+}
+
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.bc-logo-area {
+  width: 245px;
+  height: 72px;
+
+  flex: 0 0 245px;
+
+  display: flex;
+  align-items: center;
+}
+
+.bc-logo-area a {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+}
+
+.bc-logo {
+  width: 210px;
+  height: auto;
+
+  max-height: 57px;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+.bc-navigation {
+  height: 72px;
+
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 29px;
+
+  white-space: nowrap;
+}
+
+.bc-nav-link {
+  height: 72px;
+
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  color: #182238;
+
+  text-decoration: none;
+
+  font-family:
+    "Poppins",
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+  font-size: 13px;
+
+  line-height: 1;
+
+  font-weight: 500;
+
+  transition:
+    color 0.2s ease;
+}
+
+.bc-nav-link:hover {
+  color: #e21b2d;
+}
+
+.bc-nav-link.bc-active {
+  color: #e21b2d;
+
+  font-weight: 600;
+}
+
+.bc-nav-link.bc-active::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+
+  bottom: 8px;
+
+  height: 2px;
+
+  border-radius: 5px;
+
+  background: #e21b2d;
+}
+
+
+/* =========================================================
+   HEADER BUTTONS
+   ========================================================= */
+
+.bc-header-buttons {
+  flex: 0 0 auto;
+
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.bc-login,
+.bc-register {
+  height: 40px;
+
+  padding: 0 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  border-radius: 8px;
+
+  font-family:
+    "Poppins",
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+  font-size: 13px;
+
+  line-height: 1;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.bc-login {
+  min-width: 94px;
+
+  background: #ffffff;
+
+  border: 1px solid #a6a9af;
+
+  color: #151e30;
+}
+
+.bc-register {
+  min-width: 124px;
+
+  background: #e21b2d;
+
+  border: 1px solid #e21b2d;
+
+  color: #ffffff;
+}
+
+.bc-button-icon {
+  width: 16px;
+  height: 16px;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.bc-hero {
+  width: 100%;
+
+  min-height: 455px;
+
+  margin: 0;
+
+  padding: 30px 5.5%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 44%)
+    minmax(0, 56%);
+
+  column-gap: 35px;
+
+  align-items: center;
+
+  background: #ffffff;
+}
+
+
+/* =========================================================
+   HERO CONTENT
+   ========================================================= */
+
+.bc-hero-content {
+  width: 100%;
+
+  padding: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  justify-content: center;
+}
+
+
+/* =========================================================
+   SECTION LABEL
+   ========================================================= */
+
+.bc-section-label {
+  height: 18px;
+
+  margin-bottom: 18px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 11px;
+}
+
+.bc-section-label span {
+  width: 27px;
+  height: 2px;
+
+  display: block;
+
+  background: #df1b2d;
+
+  border-radius: 3px;
+}
+
+.bc-section-label p {
+  margin: 0;
+
+  color: #202b40;
+
+  font-size: 11px;
+
+  line-height: 1;
+
+  font-weight: 700;
+
+  letter-spacing: 3.5px;
+}
+
+
+/* =========================================================
+   HERO HEADING
+   ========================================================= */
+
+.bc-hero-content h1 {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #101a2f;
+
+  font-size: 42px;
+
+  line-height: 1.08;
+
+  letter-spacing: -0.9px;
+
+  font-weight: 800;
+}
+
+.bc-hero-content h1 span {
+  color: #df1b2d;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+   ========================================================= */
+
+.bc-description {
+  width: 100%;
+
+  max-width: 560px;
+
+  margin: 16px 0 0;
+
+  color: #3d4657;
+
+  font-size: 14px;
+
+  line-height: 1.5;
+
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   QUOTE
+   ========================================================= */
+
+.bc-quote {
+  width: 100%;
+
+  max-width: 470px;
+
+  min-height: 91px;
+
+  margin-top: 20px;
+
+  padding:
+    18px
+    20px
+    16px
+    63px;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  background: #fff0f2;
+
+  border-radius: 4px;
+}
+
+.bc-quote-mark {
+  position: absolute;
+
+  left: 17px;
+  top: 8px;
+
+  color: #df1b2d;
+
+  font-family: Georgia, serif;
+
+  font-size: 49px;
+
+  line-height: 1;
+
+  font-weight: 700;
+}
+
+.bc-quote p {
+  margin: 0;
+
+  color: #30394a;
+
+  font-size: 14px;
+
+  line-height: 1.48;
+
+  font-style: italic;
+
+  font-weight: 500;
+}
+
+.bc-quote-line {
+  width: 28px;
+  height: 2px;
+
+  margin-top: 9px;
+
+  display: block;
+
+  background: #df1b2d;
+
+  border-radius: 3px;
+}
+
+
+/* =========================================================
+   ABOUT HERO IMAGE
+   ========================================================= */
+
+.bc-hero-image {
+  width: 100%;
+  max-width: 642px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  background: transparent;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bc-hero-image > img {
+  width: 100%;
+  height: auto;
+  max-height: 430px;
+  display: block;
+  object-fit: contain;
+  object-position: center center;
+  border-radius: 16px;
+}
+
+
+/*
+   IMPORTANT:
+   There is deliberately NO overlay/card/heart/text
+   inside the hero image.
+*/
+
+
+/* =========================================================
+   INFORMATION SECTION
+   ========================================================= */
+
+.bc-info-section {
+  width: 100%;
+
+  min-height: 190px;
+
+  padding: 18px 5.5%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  background: #fff5f6;
+}
+
+
+/* =========================================================
+   INFORMATION ITEM
+   ========================================================= */
+
+.bc-info-item {
+  width: 24%;
+
+  min-height: 154px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   INFORMATION ICON
+   ========================================================= */
+
+.bc-info-icon {
+  width: 53px;
+  height: 53px;
+
+  margin-bottom: 9px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #df1b2d;
+
+  background: #ffe4e7;
+
+  border-radius: 50%;
+}
+
+.bc-info-icon svg {
+  width: 29px;
+  height: 29px;
+}
+
+
+/* =========================================================
+   INFORMATION TITLE
+   ========================================================= */
+
+.bc-info-item h3 {
+  margin: 0 0 7px;
+
+  color: #172137;
+
+  font-size: 16px;
+
+  line-height: 1.2;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   INFORMATION DESCRIPTION
+   ========================================================= */
+
+.bc-info-item p {
+  margin: 0;
+
+  color: #3e4859;
+
+  font-size: 12.5px;
+
+  line-height: 1.42;
+
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   INFORMATION DIVIDER
+   ========================================================= */
+
+.bc-info-divider {
+  width: 1px;
+
+  height: 123px;
+
+  flex: 0 0 1px;
+
+  background: #dccfd1;
+}
+
+
+/* =========================================================
+   VISION & MISSION
+   ========================================================= */
+
+.bc-vision {
+  width: 100%;
+
+  min-height: 300px;
+
+  padding: 28px 5.5% 35px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background-image:
+    url("/images/blood-cells.jpg");
+
+  background-size: cover;
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+}
+
+
+/* =========================================================
+   VISION BACKGROUND OVERLAY
+   ========================================================= */
+
+.bc-vision-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      rgba(72, 0, 8, 0.82),
+      rgba(72, 0, 8, 0.82)
+    );
+
+  pointer-events: none;
+
+  z-index: 0;
+}
+
+
+/* =========================================================
+   VISION CONTENT
+   ========================================================= */
+
+.bc-vision-content {
+  width: 100%;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+
+/* =========================================================
+   VISION TITLE
+   ========================================================= */
+
+.bc-vision-title {
+  margin-bottom: 22px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.bc-vision-title h2 {
+  margin: 0;
+
+  color: #ffffff;
+
+  font-size: 27px;
+
+  line-height: 1.2;
+
+  font-weight: 800;
+
+  text-align: center;
+}
+
+.bc-vision-title span {
+  width: 42px;
+  height: 2px;
+
+  margin-top: 9px;
+
+  background: #df1b2d;
+
+  border-radius: 4px;
+}
+
+
+/* =========================================================
+   VISION / MISSION CARDS
+   ========================================================= */
+
+.bc-vision-cards {
+  width: 100%;
+
+  max-width: 1160px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 45px;
+}
+
+
+/* =========================================================
+   CARD
+   ========================================================= */
+
+.bc-vision-card {
+  min-height: 125px;
+
+  padding: 18px 24px;
+
+  display: flex;
+
+  align-items: center;
+
+  background:
+    rgba(255, 248, 249, 0.96);
+
+  border-radius: 14px;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================================
+   CARD ICON
+   ========================================================= */
+
+.bc-vision-icon {
+  width: 65px;
+  height: 65px;
+
+  margin-right: 20px;
+
+  flex: 0 0 65px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #ffffff;
+
+  background: #df1b2d;
+
+  border-radius: 50%;
+}
+
+.bc-vision-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+
+/* =========================================================
+   CARD CONTENT
+   ========================================================= */
+
+.bc-vision-card-content {
+  min-width: 0;
+}
+
+.bc-vision-card h3 {
+  margin: 0 0 6px;
+
+  color: #182239;
+
+  font-size: 18px;
+
+  line-height: 1.2;
+
+  font-weight: 700;
+}
+
+.bc-vision-card p {
+  margin: 0;
+
+  color: #3d4657;
+
+  font-size: 13px;
+
+  line-height: 1.45;
+
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+  .bc-header {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .bc-logo-area {
+    width: 205px;
+
+    flex-basis: 205px;
+  }
+
+  .bc-logo {
+    width: 185px;
+  }
+
+  .bc-navigation {
+    gap: 19px;
+  }
+
+  .bc-nav-link {
+    font-size: 12px;
+  }
+
+
+  /* HERO */
+
+  .bc-hero {
+    padding-left: 3%;
+    padding-right: 3%;
+
+    grid-template-columns:
+      minmax(0, 44%)
+      minmax(0, 56%);
+
+    column-gap: 25px;
+  }
+
+  .bc-hero-content h1 {
+    font-size: 36px;
+  }
+
+  .bc-description {
+    font-size: 13px;
+  }
+
+  .bc-hero-image {
+    height: auto;
+  }
+
+
+  /* INFORMATION */
+
+  .bc-info-section {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+
+  /* VISION */
+
+  .bc-vision {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+
+/* =========================================================
+   SMALL TABLET
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+  /* HEADER */
+
+  .bc-header {
+    height: auto;
+
+    min-height: 72px;
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    flex-wrap: wrap;
+  }
+
+  .bc-logo-area {
+    height: 52px;
+  }
+
+  .bc-header-buttons {
+    height: 52px;
+  }
+
+
+  /* NAVIGATION */
+
+  .bc-navigation {
+    width: 100%;
+
+    height: 42px;
+
+    flex: 0 0 100%;
+
+    justify-content: flex-start;
+
+    overflow-x: auto;
+
+    scrollbar-width: none;
+  }
+
+  .bc-navigation::-webkit-scrollbar {
+    display: none;
+  }
+
+  .bc-nav-link {
+    height: 42px;
+
+    flex-shrink: 0;
+  }
+
+  .bc-nav-link.bc-active::after {
+    bottom: 2px;
+  }
+
+
+  /* HERO */
+
+  .bc-hero {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    row-gap: 28px;
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+  }
+
+  .bc-hero-content {
+    padding-top: 0;
+  }
+
+  .bc-hero-content h1 {
+    font-size: 35px;
+  }
+
+  .bc-description {
+    max-width: 650px;
+  }
+
+  .bc-hero-image {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* INFORMATION */
+
+  .bc-info-section {
+    flex-wrap: wrap;
+
+    gap: 15px;
+  }
+
+  .bc-info-item {
+    width: 46%;
+  }
+
+  .bc-info-divider {
+    display: none;
+  }
+
+
+  /* VISION */
+
+  .bc-vision-cards {
+    grid-template-columns: 1fr;
+
+    gap: 18px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  /* HEADER */
+
+  .bc-header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .bc-logo-area {
+    width: auto;
+
+    flex: 0 0 auto;
+  }
+
+  .bc-logo {
+    width: 160px;
+  }
+
+
+  /* BUTTONS */
+
+  .bc-login,
+  .bc-register {
+    height: 36px;
+
+    padding: 0 9px;
+
+    font-size: 11px;
+  }
+
+  .bc-login {
+    min-width: 67px;
+  }
+
+  .bc-register {
+    min-width: 82px;
+  }
+
+  .bc-button-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+
+  /* NAVIGATION */
+
+  .bc-navigation {
+    gap: 20px;
+  }
+
+  .bc-nav-link {
+    font-size: 11px;
+  }
+
+
+  /* HERO */
+
+  .bc-hero {
+    padding:
+      25px
+      15px
+      30px;
+
+    row-gap: 25px;
+  }
+
+  .bc-hero-content {
+    padding-top: 0;
+  }
+
+  .bc-section-label {
+    margin-bottom: 16px;
+  }
+
+  .bc-section-label p {
+    font-size: 10px;
+
+    letter-spacing: 3px;
+  }
+
+  .bc-hero-content h1 {
+    font-size: 32px;
+
+    line-height: 1.08;
+
+    letter-spacing: -0.5px;
+  }
+
+  .bc-description {
+    font-size: 13px;
+
+    line-height: 1.5;
+  }
+
+  .bc-quote {
+    width: 100%;
+
+    min-height: 90px;
+
+    padding-left: 57px;
+  }
+
+
+  /* MOBILE HERO IMAGE */
+
+  .bc-hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+  }
+
+  .bc-hero-image > img {
+    width: 100%;
+    height: auto;
+    max-height: 330px;
+    object-fit: contain;
+    object-position: center center;
+    border-radius: 14px;
+  }
+
+
+  /* INFORMATION */
+
+  .bc-info-section {
+    padding:
+      25px
+      15px;
+
+    gap: 30px;
+  }
+
+  .bc-info-item {
+    width: 100%;
+
+    min-height: auto;
+  }
+
+
+  /* VISION */
+
+  .bc-vision {
+    min-height: auto;
+
+    padding:
+      30px
+      15px
+      35px;
+
+    background-position: center;
+  }
+
+  .bc-vision-title {
+    margin-bottom: 22px;
+  }
+
+  .bc-vision-title h2 {
+    font-size: 22px;
+  }
+
+  .bc-vision-cards {
+    grid-template-columns: 1fr;
+
+    gap: 16px;
+  }
+
+  .bc-vision-card {
+    min-height: 110px;
+
+    padding: 15px;
+  }
+
+  .bc-vision-icon {
+    width: 55px;
+    height: 55px;
+
+    flex-basis: 55px;
+
+    margin-right: 14px;
+  }
+
+  .bc-vision-icon svg {
+    width: 27px;
+    height: 27px;
+  }
+
+  .bc-vision-card h3 {
+    font-size: 15px;
+  }
+
+  .bc-vision-card p {
+    font-size: 11px;
+
+    line-height: 1.4;
+  }
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+  .bc-logo {
+    width: 145px;
+  }
+
+  .bc-header-buttons {
+    gap: 5px;
+  }
+
+  .bc-login,
+  .bc-register {
+    padding: 0 7px;
+
+    min-width: auto;
+  }
+
+  .bc-hero-content h1 {
+    font-size: 29px;
+  }
+
+  .bc-hero-image {
+    height: auto;
+  }
+
+  .bc-vision-card {
+    align-items: flex-start;
+  }
+}

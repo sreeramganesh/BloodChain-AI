@@ -1,0 +1,374 @@
+/* ==========================================================================
+   BLOODCHAIN AI - GLOBAL TYPOGRAPHY LAYER
+   --------------------------------------------------------------------------
+   Applies typography-only enhancements across all pages:
+   - Main headings: 28–32px
+   - Section/card headings: 18–22px
+   - Normal body text: 16–18px
+   - Form labels: 14–16px
+   - Input/dropdown text: 16px
+   - Tabs: 15–16px
+   - Table headers: 14–15px
+   - Table content: 15–16px
+   - Status badges: 14–15px
+   - Small supporting text: minimum 14px
+   - Search placeholder text: 15–16px
+   - Important values/numbers: 18–24px
+
+   CONSTRAINTS:
+   - Sidebar strictly preserved (no changes)
+   - Layout, widths/heights, colors, icons, spacing, navigation preserved
+   - Zero redesign or functional modification
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. EXPLICIT SIDEBAR IMMUNITY (DO NOT CHANGE THE SIDEBAR)
+   -------------------------------------------------------------------------- */
+
+.sidebar .brand-name {
+  font-size: 19px !important;
+}
+
+.sidebar .brand-tagline {
+  font-size: 9px !important;
+}
+
+.sidebar .sidebar-item {
+  font-size: 12px !important;
+}
+
+.sidebar .notification-count {
+  font-size: 10px !important;
+}
+
+.sidebar .footer-title {
+  font-size: 11px !important;
+}
+
+.sidebar .version {
+  font-size: 8px !important;
+}
+
+/* --------------------------------------------------------------------------
+   2. MAIN HEADINGS (28–32px)
+   -------------------------------------------------------------------------- */
+.dashboard-header h1,
+.inventory-page-header h1,
+.request-header-left h1,
+.transfer-header h1,
+.donors-header h1,
+.hospitals-header h1,
+.donations-header h1,
+.requests-header h1,
+.notifications-header h1,
+.settings-header h1,
+.help-header h1,
+.coming-soon h1,
+.login-heading h2,
+.login-card h2,
+.page-container>div>h1,
+.main-area h1:not(.sidebar *) {
+  font-size: 28px !important;
+  line-height: 1.25 !important;
+  font-weight: 800 !important;
+}
+
+/* --------------------------------------------------------------------------
+   3. SECTION & CARD HEADINGS (18–22px)
+   -------------------------------------------------------------------------- */
+.card-header h2,
+.card-title h2,
+.dashboard-card h2,
+.donor-table-title h2,
+.transfer-table-header h2,
+.request-table-header h2,
+.hospital-table-header h2,
+.donation-table-header h2,
+.table-card-header h2,
+.modal-header h2,
+.modal-title,
+.modal-content h2,
+.filter-title strong,
+.ai-header h2,
+.ai-content h3,
+.main-area h2:not(.sidebar *),
+.main-area h3:not(.sidebar *):not(.notification-item h3) {
+  font-size: 20px !important;
+  line-height: 1.3 !important;
+}
+
+.notification-content h3,
+.notification-item h3,
+.ai-recommendation strong {
+  font-size: 18px !important;
+  line-height: 1.35 !important;
+}
+
+/* --------------------------------------------------------------------------
+   4. NORMAL BODY TEXT (16–18px)
+   -------------------------------------------------------------------------- */
+.dashboard-header p,
+.inventory-page-header p,
+.transfer-header p,
+.donors-header p,
+.hospitals-header p,
+.donations-header p,
+.requests-header p,
+.notifications-header p,
+.settings-header p,
+.help-header p,
+.login-heading p,
+.login-tagline,
+.card-header p,
+.request-table-header p,
+.coming-soon p,
+.notification-content p,
+.main-area p:not(.sidebar *):not(.eyebrow):not(.dashboard-eyebrow):not(.transfer-eyebrow):not(.stat-description):not(.small-text) {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+
+.bank-info strong,
+.profile-info strong,
+.dashboard-date-card strong {
+  font-size: 15px !important;
+  line-height: 1.35 !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. FORM LABELS (14–16px)
+   -------------------------------------------------------------------------- */
+.main-area label:not(.sidebar *),
+.select-group label,
+.inventory-select-field label,
+.filter-group label,
+.form-group label,
+.input-label,
+.filter-controls label,
+.form-label,
+.login-card label,
+.modal-content label {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+}
+
+/* --------------------------------------------------------------------------
+   6. INPUT / DROPDOWN TEXT (16px) & SEARCH PLACEHOLDER (15–16px)
+   -------------------------------------------------------------------------- */
+.main-area input:not([type="checkbox"]):not([type="radio"]):not(.sidebar *),
+.main-area select:not(.sidebar *),
+.main-area textarea:not(.sidebar *),
+.custom-select select,
+.inventory-select-field select,
+.filter-controls select,
+.filter-group select,
+.search-box input,
+.inventory-table-search input,
+.login-card input,
+.modal-content input,
+.modal-content select,
+.modal-content textarea {
+  font-size: 16px !important;
+  line-height: normal !important;
+}
+
+.main-area input::placeholder,
+.main-area textarea::placeholder,
+.search-box input::placeholder,
+.inventory-table-search input::placeholder,
+.login-card input::placeholder {
+  font-size: 15px !important;
+}
+
+/* --------------------------------------------------------------------------
+   7. TABS (15–16px)
+   -------------------------------------------------------------------------- */
+.request-tabs button,
+.transfer-tabs button,
+.hospital-tabs button,
+.donation-tabs button,
+.my-requests-tabs button,
+.notifications-tabs button,
+.predictive-tab-btn,
+.tab-btn,
+.tab-button,
+.nav-tab,
+.tabs button,
+.filter-tab {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+/* --------------------------------------------------------------------------
+   8. TABLE HEADERS (14–15px)
+   -------------------------------------------------------------------------- */
+.main-area th:not(.sidebar *),
+table th,
+thead th,
+.table-th,
+.inventory-detail-table th,
+.expiry-table th,
+.bottom-table th,
+.request-table th,
+.donor-table th,
+.transfer-table th,
+.hospital-table th,
+.donation-table th,
+.notification-table th {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.3px !important;
+}
+
+/* --------------------------------------------------------------------------
+   9. TABLE CONTENT (15–16px)
+   -------------------------------------------------------------------------- */
+.main-area td:not(.sidebar *),
+table td,
+tbody td,
+.table-td,
+.inventory-detail-table td,
+.expiry-table td,
+.bottom-table td,
+.request-table td,
+.donor-table td,
+.transfer-table td,
+.hospital-table td,
+.donation-table td,
+.notification-table td {
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+
+.main-area td strong:not(.sidebar *),
+table td strong,
+tbody td strong,
+.inventory-detail-table td strong,
+.request-table td strong,
+.donor-table td strong,
+.transfer-table td strong,
+.hospital-table td strong,
+.donation-table td strong {
+  font-size: 15px !important;
+}
+
+/* --------------------------------------------------------------------------
+   10. STATUS BADGES (14–15px)
+   -------------------------------------------------------------------------- */
+.status-badge,
+.priority-badge,
+.blood-group-badge,
+.transfer-status,
+.inventory-status-badge,
+.request-status-badge,
+.table-blood-group,
+.badge,
+.tag,
+.status-pill {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+}
+
+/* --------------------------------------------------------------------------
+   11. SMALL SUPPORTING TEXT (MINIMUM 14px)
+   -------------------------------------------------------------------------- */
+.dashboard-eyebrow,
+.transfer-eyebrow,
+.inventory-eyebrow,
+.request-eyebrow,
+.eyebrow,
+.stat-description,
+.stat-trend,
+.filter-title span,
+.bank-info span,
+.bank-stock span,
+.bank-stock small,
+.profile-info span,
+.dashboard-date-card span,
+.inventory-date small,
+.inventory-quote span,
+.notification-time,
+.notification-meta,
+.card-header span,
+.helper-text,
+.form-options,
+.or-divider,
+.main-area small:not(.sidebar *),
+.main-area .meta:not(.sidebar *) {
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+}
+
+/* --------------------------------------------------------------------------
+   12. IMPORTANT VALUES / NUMBERS (18–24px)
+   -------------------------------------------------------------------------- */
+.stat-number,
+.stat-card .stat-number,
+.bank-stock strong,
+.blood-group-number,
+.blood-total-card strong,
+.metric-value,
+.kpi-value,
+.summary-number,
+.total-value {
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+}
+
+.stat-label {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+/* --------------------------------------------------------------------------
+   13. BUTTONS & ACTIONS (READABILITY OPTIMIZED)
+   -------------------------------------------------------------------------- */
+.apply-filter,
+.inventory-primary-button,
+.inventory-secondary-button,
+.transfer-new-button,
+.request-new-btn,
+.donor-contact-btn,
+.login-button,
+.create-account-button,
+.ai-button,
+.view-link,
+.action-btn {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+/* --------------------------------------------------------------------------
+   14. PUBLIC WEBSITE TYPOGRAPHY (HOME, ABOUT, FEATURES, CONTACT, ETC.)
+   -------------------------------------------------------------------------- */
+.nav-links a,
+.main-nav a {
+  font-size: 15px !important;
+}
+
+.nav-buttons .login-btn,
+.nav-buttons .register-btn,
+.header-actions .login-btn,
+.header-actions .register-btn {
+  font-size: 15px !important;
+}
+
+.bc-footer-nav a,
+.bc-footer-tagline {
+  font-size: 15px !important;
+}
+
+.bc-footer-bottom-bar,
+.bc-footer-subtitle {
+  font-size: 14px !important;
+}
+
+.contact-card label,
+.features-card p,
+.impact-card p,
+.about-section p {
+  font-size: 16px !important;
+}
