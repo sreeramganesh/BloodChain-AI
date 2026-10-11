@@ -40,22 +40,10 @@ Blood_chain/
 │   │   └── supabase/                  # PostgreSQL database schemas and migrations
 │   ├── Bloodchain/Bloodchain/         # Initial UI prototype
 │   └── datasets/                      # Master hospital directory & inventory datasets
-├── docs/
-│   └── reports/                       # Implementation & architecture reports (Phases 1-6)
 ├── .gitignore                         # Repository gitignore rules
+├── LICENSE                            # MIT License
 └── README.md                          # Project overview and documentation
 ```
-
----
-
-## 📋 Implementation Reports & Documentation
-
-Detailed implementation reports for all engineering phases are available in [`docs/reports/`](file:///docs/reports/):
-
-- [`PHASE_1_LEAFLET_IMPLEMENTATION_REPORT.md`](file:///docs/reports/PHASE_1_LEAFLET_IMPLEMENTATION_REPORT.md): Leaflet & OpenStreetMap baseline migration.
-- [`PHASE_2_FACILITY_MAP_IMPLEMENTATION_REPORT.md`](file:///docs/reports/PHASE_2_FACILITY_MAP_IMPLEMENTATION_REPORT.md): Interactive facility directory map & district navigation.
-- [`PHASE_5_FINAL_INTEGRATION_REPORT.md`](file:///docs/reports/PHASE_5_FINAL_INTEGRATION_REPORT.md): Road routing, OSRM integration, and 100-point scoring model.
-- [`PHASE_6_IMPLEMENTATION_REPORT.md`](file:///docs/reports/PHASE_6_IMPLEMENTATION_REPORT.md): End-to-end integration, automated testing, and verification.
 
 ---
 
@@ -92,4 +80,4 @@ npm run build
 
 ## 🛡️ License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
