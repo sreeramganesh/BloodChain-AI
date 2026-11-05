@@ -156,6 +156,13 @@ npm test
 # Build for production
 npm run build
 ```
+## 🎥 Team Introduction & Survey Video
+
+Watch our project introduction and survey video to learn about the BloodChain AI project, meet our team, and understand the problem we aim to address.
+
+▶️ **[Watch BloodChain AI – Team Introduction & Survey Video](https://drive.google.com/file/d/1XkEUaIbwgS7UmgFp163VK61LEncjSZsh/view?usp=sharing)**
+
+*Video hosted on Google Drive.*
 
 ---
 
